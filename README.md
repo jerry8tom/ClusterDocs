@@ -9,4 +9,6 @@ Cluster documents with similar semantic description.
 - Removed all the stop words, symbols, converted the string to lowercase. 
 
 ## The Dependencies
-'pip install -r requirements.txt'
+'''
+pip install -r requirements.txt
+'''
