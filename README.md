@@ -20,7 +20,6 @@ To further quatify we can represent the terms against their frequency.
 
 ![wordCount](images/word_count.png)
 
-This plot is just to show the spread of the data initally to get a better understanding of what we should be expecting post clustering.
 
 ## Text to Vectors
 In order to study the text data we must convert it into numerical(vector) form so that it becomes quantifiable. 
@@ -28,9 +27,13 @@ For us finding the frequency of terms and their similarity is useful since we wi
 This is the reason we use tf-idf (term frequency-inverse document frequency) as it refelects the importance of text in the corpus.
 
 ![tfidf](images/tfidf.PNG)
+
 These are the top 10 terms with highest mean tf-idf.
 
 ![scatterInit](images/cluster_scatter_init.png)
+
+This plot is just to show the spread of the data initally to get a better understanding of what we should be expecting post clustering.
+
 
 ## Clustering 
 There are many ways to cluster data but the simplest and most efficient is k-means. Every point is assigned to one of the 'n' clusters depending on it's distance from the mean of these clusters, the closer the better.
