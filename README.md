@@ -24,7 +24,7 @@ In order to study the text data we must convert it into numerical(vector) form s
 For us finding the frequency of terms and their similarity is useful since we wish to cluster them together.
 This is the reason we use tf-idf (term frequency-inverse document frequency) as it refelects the importance of text in the corpus.
 
-![tfidf](images/tfidf.png)
+![tfidf](images/tfidf.PNG)
 These are the top 10 terms with highest mean tf-idf.
 
 ![scatterInit](images/cluster_scatter_init.png)
@@ -41,22 +41,22 @@ As you can see, we get a straight line which keeps decreasing even as we go to 1
 Another way is to visualise the data points in the cluster and try to see the correctness of the model ourselves.
 ![twoCluster](images/cluster_scatter.png)
 
-![twoCount](images/label_counts_2.png)
+![twoCount](images/label_counts_2.PNG)
 
 The key terms in the cluster are:
 ![twoTerms](images/cluster_terms_2.png)
 
 ![threeCluster](images/cluster_scatter_3.png)
 
-![threeCount](images/label_counts_3.png)
+![threeCount](images/label_counts_3.PNG)
 
 The key terms in the cluster are:
 
-![threeTerms](images/cluster_terms_3.png)
+![threeTerms](images/cluster_terms_3.PNG)
 
 ![fourCluster](images/cluster_scatter_4.png)
 
-![fourTerms](images/cluster_terms_4.png)
+![fourTerms](images/cluster_terms_4.PNG)
 
 As we go higher in cluster size it becomes harder to differentiate between clusters and the key terms do not exhibit cohesion.
 
