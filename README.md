@@ -12,19 +12,19 @@ Cluster documents with similar semantic description.
 ## Visualising the data
 It is always a good idea to get an insight into the data that we will be working on.
 Here I have displayed the most common terms in the corpus after cleaning.
-!.[wordCloud][images/word_cloud.png]
+![wordCloud](images/word_cloud.png)
 
 As we can see words like 'people', 'image', 'jpeg', 'file' are the most common terms.
 To further quatify we can represent the terms against their frequency.
 
-!.[wordCount][images/word_count.png]
+![wordCount](images/word_count.png)
 
 ## Text to Vectors
 In order to study the text data we must convert it into numerical(vector) form so that it becomes quantifiable. 
 For us finding the frequency of terms and their similarity is useful since we wish to cluster them together.
 This is the reason we use tf-idf (term frequency-inverse document frequency) as it refelects the importance of text in the corpus.
 
-!.[TFIDF][images/tfidf.png]
+![TFIDF](images/tfidf.png)
 
 These are the top 10 terms with highest mean tf-idf.
 
