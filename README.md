@@ -19,7 +19,7 @@ Here I have displayed the most common terms in the corpus after cleaning.
 
 To further quatify we can represent the terms against their frequency.
 
-![wordCount](images/word_count.png)
+![wordCount](images/word_count.png){:height="20px" width="50px"}
 
 
 ## Text to Vectors
