@@ -2,7 +2,7 @@
 Cluster documents with similar semantic description.
 
 ## The Data
-300 text files of various formats (ANSI, utf-8, utf-16..) containing englis words and special characters. 
+300 text files of various formats (ANSI, utf-8, utf-16..) containing english words and special characters. The data is in form of emails with fields including sender, path, subject, date, body etc.
 
 ## The Cleaning
 - Converted all the files to simple python strings while reading.
@@ -44,7 +44,7 @@ Another way is to visualise the data points in the cluster and try to see the co
 ![twoCount](images/label_counts_2.PNG)
 
 The key terms in the cluster are:
-![twoTerms](images/cluster_terms_2.png)
+![twoTerms](images/cluster_terms_2.PNG)
 
 ![threeCluster](images/cluster_scatter_3.png)
 
