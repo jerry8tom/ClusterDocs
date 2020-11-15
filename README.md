@@ -14,6 +14,7 @@ It is always a good idea to get an insight into the data that we will be working
 Here I have displayed the most common terms in the corpus after cleaning.
 
 ![wordCloud](images/word_cloud.png)
+
 *As we can see words like 'people', 'image', 'jpeg', 'file' are the most common terms.*
 
 To further quatify we can represent the terms against their frequency.
@@ -27,9 +28,11 @@ For us finding the frequency of terms and their similarity is useful since we wi
 This is the reason we use tf-idf (term frequency-inverse document frequency) as it refelects the importance of text in the corpus.
 
 ![tfidf](images/tfidf.PNG)
+
 *These are the top 10 terms with highest mean tf-idf.*
 
 ![scatterInit](images/cluster_scatter_init.png)
+
 *This plot is just to show the spread of the data initally to get a better understanding of what we should be expecting post clustering.*
 
 
